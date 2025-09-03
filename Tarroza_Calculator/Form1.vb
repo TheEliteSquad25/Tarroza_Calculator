@@ -17,14 +17,11 @@
 
         Dim btn As Button = CType(sender, Button)
 
-        ' Determine which number is being entered (first or second)
         Dim parts() As String = txtDisplay.Text.Split(" "c)
         Dim currentPart As String = If(parts.Length > 0, parts(parts.Length - 1), "")
 
-        ' Count characters (digits + decimal point, ignore minus sign)
         Dim charCount As Integer = currentPart.Count(Function(c) Char.IsDigit(c) Or c = ".")
 
-        ' Limit to 16 characters (digits + decimal)
         If (Char.IsDigit(btn.Text, 0) Or btn.Text = ".") AndAlso charCount >= 16 Then
             MessageBox.Show("Maximum 16 characters (digits and decimal point) allowed.", "Limit", MessageBoxButtons.OK, MessageBoxIcon.Information)
             Exit Sub
