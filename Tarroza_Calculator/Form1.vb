@@ -181,5 +181,7 @@
 
     Private Sub txtDisplay_TextChanged(sender As Object, e As EventArgs) Handles txtDisplay.TextChanged
         txtDisplay.Focus()
+        txtDisplay.SelectionStart = txtDisplay.Text.Length
+        txtDisplay.SelectionLength = 0
     End Sub
 End Class

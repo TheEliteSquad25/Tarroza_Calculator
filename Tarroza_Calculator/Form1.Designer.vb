@@ -47,7 +47,7 @@ Partial Class Form1
         ' 
         btnAC.Font = New Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btnAC.Location = New Point(10, 134)
-        btnAC.Margin = New Padding(4, 4, 4, 4)
+        btnAC.Margin = New Padding(4)
         btnAC.Name = "btnAC"
         btnAC.Size = New Size(209, 70)
         btnAC.TabIndex = 0
@@ -58,10 +58,11 @@ Partial Class Form1
         ' 
         txtDisplay.Font = New Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         txtDisplay.Location = New Point(10, 14)
-        txtDisplay.Margin = New Padding(4, 4, 4, 4)
+        txtDisplay.Margin = New Padding(4)
         txtDisplay.Multiline = True
         txtDisplay.Name = "txtDisplay"
         txtDisplay.ReadOnly = True
+        txtDisplay.ScrollBars = ScrollBars.Horizontal
         txtDisplay.Size = New Size(413, 110)
         txtDisplay.TabIndex = 1
         txtDisplay.TextAlign = HorizontalAlignment.Right
@@ -70,7 +71,7 @@ Partial Class Form1
         ' 
         btnBackspace.Font = New Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btnBackspace.Location = New Point(219, 134)
-        btnBackspace.Margin = New Padding(4, 4, 4, 4)
+        btnBackspace.Margin = New Padding(4)
         btnBackspace.Name = "btnBackspace"
         btnBackspace.Size = New Size(103, 70)
         btnBackspace.TabIndex = 2
@@ -81,7 +82,7 @@ Partial Class Form1
         ' 
         btnDivide.Font = New Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btnDivide.Location = New Point(321, 134)
-        btnDivide.Margin = New Padding(4, 4, 4, 4)
+        btnDivide.Margin = New Padding(4)
         btnDivide.Name = "btnDivide"
         btnDivide.Size = New Size(103, 70)
         btnDivide.TabIndex = 3
@@ -92,7 +93,7 @@ Partial Class Form1
         ' 
         btn7.Font = New Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btn7.Location = New Point(10, 213)
-        btn7.Margin = New Padding(4, 4, 4, 4)
+        btn7.Margin = New Padding(4)
         btn7.Name = "btn7"
         btn7.Size = New Size(104, 70)
         btn7.TabIndex = 4
@@ -103,7 +104,7 @@ Partial Class Form1
         ' 
         btn8.Font = New Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btn8.Location = New Point(114, 213)
-        btn8.Margin = New Padding(4, 4, 4, 4)
+        btn8.Margin = New Padding(4)
         btn8.Name = "btn8"
         btn8.Size = New Size(104, 70)
         btn8.TabIndex = 5
@@ -114,7 +115,7 @@ Partial Class Form1
         ' 
         btn9.Font = New Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btn9.Location = New Point(219, 213)
-        btn9.Margin = New Padding(4, 4, 4, 4)
+        btn9.Margin = New Padding(4)
         btn9.Name = "btn9"
         btn9.Size = New Size(103, 70)
         btn9.TabIndex = 6
@@ -125,7 +126,7 @@ Partial Class Form1
         ' 
         btnMultiply.Font = New Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btnMultiply.Location = New Point(321, 213)
-        btnMultiply.Margin = New Padding(4, 4, 4, 4)
+        btnMultiply.Margin = New Padding(4)
         btnMultiply.Name = "btnMultiply"
         btnMultiply.Size = New Size(103, 70)
         btnMultiply.TabIndex = 7
@@ -136,7 +137,7 @@ Partial Class Form1
         ' 
         btn4.Font = New Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btn4.Location = New Point(10, 291)
-        btn4.Margin = New Padding(4, 4, 4, 4)
+        btn4.Margin = New Padding(4)
         btn4.Name = "btn4"
         btn4.Size = New Size(104, 70)
         btn4.TabIndex = 8
@@ -147,7 +148,7 @@ Partial Class Form1
         ' 
         btn1.Font = New Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btn1.Location = New Point(10, 370)
-        btn1.Margin = New Padding(4, 4, 4, 4)
+        btn1.Margin = New Padding(4)
         btn1.Name = "btn1"
         btn1.Size = New Size(104, 70)
         btn1.TabIndex = 9
@@ -158,7 +159,7 @@ Partial Class Form1
         ' 
         btn5.Font = New Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btn5.Location = New Point(114, 291)
-        btn5.Margin = New Padding(4, 4, 4, 4)
+        btn5.Margin = New Padding(4)
         btn5.Name = "btn5"
         btn5.Size = New Size(104, 70)
         btn5.TabIndex = 11
@@ -169,7 +170,7 @@ Partial Class Form1
         ' 
         btn2.Font = New Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btn2.Location = New Point(114, 370)
-        btn2.Margin = New Padding(4, 4, 4, 4)
+        btn2.Margin = New Padding(4)
         btn2.Name = "btn2"
         btn2.Size = New Size(104, 70)
         btn2.TabIndex = 12
@@ -180,7 +181,7 @@ Partial Class Form1
         ' 
         btn0.Font = New Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btn0.Location = New Point(10, 448)
-        btn0.Margin = New Padding(4, 4, 4, 4)
+        btn0.Margin = New Padding(4)
         btn0.Name = "btn0"
         btn0.Size = New Size(209, 70)
         btn0.TabIndex = 13
@@ -191,7 +192,7 @@ Partial Class Form1
         ' 
         btn6.Font = New Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btn6.Location = New Point(219, 291)
-        btn6.Margin = New Padding(4, 4, 4, 4)
+        btn6.Margin = New Padding(4)
         btn6.Name = "btn6"
         btn6.Size = New Size(103, 70)
         btn6.TabIndex = 14
@@ -202,7 +203,7 @@ Partial Class Form1
         ' 
         btnDecimal.Font = New Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btnDecimal.Location = New Point(219, 448)
-        btnDecimal.Margin = New Padding(4, 4, 4, 4)
+        btnDecimal.Margin = New Padding(4)
         btnDecimal.Name = "btnDecimal"
         btnDecimal.Size = New Size(103, 70)
         btnDecimal.TabIndex = 15
@@ -213,7 +214,7 @@ Partial Class Form1
         ' 
         btn3.Font = New Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btn3.Location = New Point(219, 370)
-        btn3.Margin = New Padding(4, 4, 4, 4)
+        btn3.Margin = New Padding(4)
         btn3.Name = "btn3"
         btn3.Size = New Size(103, 70)
         btn3.TabIndex = 15
@@ -224,7 +225,7 @@ Partial Class Form1
         ' 
         btnEquals.Font = New Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btnEquals.Location = New Point(321, 448)
-        btnEquals.Margin = New Padding(4, 4, 4, 4)
+        btnEquals.Margin = New Padding(4)
         btnEquals.Name = "btnEquals"
         btnEquals.Size = New Size(103, 70)
         btnEquals.TabIndex = 16
@@ -235,7 +236,7 @@ Partial Class Form1
         ' 
         btnSubtract.Font = New Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btnSubtract.Location = New Point(321, 291)
-        btnSubtract.Margin = New Padding(4, 4, 4, 4)
+        btnSubtract.Margin = New Padding(4)
         btnSubtract.Name = "btnSubtract"
         btnSubtract.Size = New Size(103, 70)
         btnSubtract.TabIndex = 16
@@ -246,7 +247,7 @@ Partial Class Form1
         ' 
         btnAdd.Font = New Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btnAdd.Location = New Point(321, 370)
-        btnAdd.Margin = New Padding(4, 4, 4, 4)
+        btnAdd.Margin = New Padding(4)
         btnAdd.Name = "btnAdd"
         btnAdd.Size = New Size(103, 70)
         btnAdd.TabIndex = 17
@@ -281,7 +282,7 @@ Partial Class Form1
         Controls.Add(btnAC)
         FormBorderStyle = FormBorderStyle.FixedSingle
         KeyPreview = True
-        Margin = New Padding(4, 4, 4, 4)
+        Margin = New Padding(4)
         MaximizeBox = False
         Name = "Form1"
         StartPosition = FormStartPosition.CenterScreen
