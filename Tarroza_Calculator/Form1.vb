@@ -178,4 +178,8 @@
             Case Keys.Back : btnBackspace.PerformClick()
         End Select
     End Sub
+
+    Private Sub txtDisplay_TextChanged(sender As Object, e As EventArgs) Handles txtDisplay.TextChanged
+        txtDisplay.Focus()
+    End Sub
 End Class
